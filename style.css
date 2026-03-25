@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    min-width: 0;
+}
+@font-face {
+  font-family: "Hersey"; /* Choose a name for your font */
+  src: url("Hershey-Noailles-OldFrench-Bold.woff") format("woff"),
+}
+body{
+    background-image: url(Dcv7Ly.gif);
+    
+    
+}
+.gradient{
+  z-index: 1;
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  justify-self: center;
+  margin: 0;
+  top: 0; left: 0;
+background-image: radial-gradient(circle at center, 
+ rgba(255, 255, 255, 1) 20%, 
+ rgba(255, 255, 0, 0.1) 90%);
+ }
+
+
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+h1 {
+  display: flex;
+  font: bold 40px/1.5 Arial, sans-serif;
+  color: yellow;
+  background-color:blue;
+  position:absolute;
+  justify-self: center;
+  z-index: 5;
+  width: fit-content;
+  top: 160px;
+
+}
+h2 {
+  display: flex;
+  font: bold italic 90px/1.5 Times, serif;
+  color:chartreuse;
+    
+    /* Apply the gradient as a background image */
+    background-image: linear-gradient(magenta, gold);
+
+    /* Clip the background to the text */
+    background-clip: text;
+    -webkit-background-clip: text; /* For broader compatibility with older browsers */
+
+    /* Make the text transparent to show the background */
+    color: transparent;
+    /* -webkit-text-fill-color: transparent; */ /* Not strictly necessary with modern browsers using the 'color' property */
+    
+  position: absolute;
+  justify-self: center;
+  top: 550px;
+  z-index: 5;
+  text-align: center;
+    -webkit-text-stroke-width: 3px;
+  -webkit-text-stroke-color:blue;
+  filter: drop-shadow(0 0 10px skyblue);
+}
+
+h3 {
+  display: flex;
+  font: bold 20px/1.5 Arial, sans-serif;
+  color: chartreuse;
+  background-color:red;
+  position: absolute;
+  align-self: center;
+  justify-self: center;
+  z-index: 5;
+  animation: bounce  2s linear infinite;;
+  width: fit-content;
+  top: 700px;
+
+}
+@keyframes bounce {
+  0%, 100% {
+    top: 700px;
+    animation-timing-function: ease-in; /* fast drop */
+  }
+  50% {
+    top: 750px; /* drops down 100px */
+    animation-timing-function: ease-out; /* slow rise */
+  }
+}
+button {
+  display: flex;
+  z-index: 10;
+  position: absolute;
+  font: italic 20px/1.5 Arial, sans-serif;
+   background-image: linear-gradient(chartreuse, gold);
+   border-radius: 5px;
+   padding: 5px;
+   color: black;
+   justify-self: center;
+   text-align: center;
+   top: 40px;
+   border-width: 2px;
+   border-color: red;
+   filter: drop-shadow(0 10px 10px white);
+
+
+}
+button:active {
+   background-image: linear-gradient(magenta, gold);
+   border-color: black;
+   filter: drop-shadow(0 10px 10px white);
+
+
+}
+
+p {
+  display: flex;
+  font:  16px/1.5 times, serif;
+  color: blue;
+  background-color: yellow;
+  position: absolute;
+  align-self: center;
+  justify-self: center;
+  z-index: 4;
+  top: 750px;
+
+  width: fit-content;
+
+}
+
+
+#speech{
+    z-index: 9;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: transparent;
+
+}
