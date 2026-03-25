@@ -34,7 +34,7 @@ body::-webkit-scrollbar {
 
 h1 {
   display: flex;
-  font: bold 40px/1.5 Arial, sans-serif;
+  font: bold 30px/1.5 Arial, sans-serif;
   color: yellow;
   background-color:blue;
   position:absolute;
@@ -45,7 +45,7 @@ h1 {
 }
 h2 {
   display: flex;
-  font: bold italic 90px/1.5 Times, serif;
+  font: bold italic 80px/1.5 Times, serif;
   color:chartreuse;
     
     /* Apply the gradient as a background image */
@@ -94,7 +94,7 @@ button {
   display: flex;
   z-index: 10;
   position: absolute;
-  font: italic 20px/1.5 Arial, sans-serif;
+  font: italic 15px/1.5 Arial, sans-serif;
    background-image: linear-gradient(chartreuse, gold);
    border-radius: 5px;
    padding: 5px;
