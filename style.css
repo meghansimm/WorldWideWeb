@@ -39,7 +39,6 @@ h1 {
   background-color:blue;
   position:absolute;
   z-index: 5;
-  width: fit-content;
   top: 20%;
   text-align: center;
 
@@ -78,7 +77,6 @@ h3 {
 
   z-index: 5;
   animation: bounce  2s linear infinite;;
-  width: fit-content;
   top: 85%;
   text-align: center;
 
@@ -128,7 +126,6 @@ p {
   top: 85%;
   text-align: center;
 
-  width: fit-content;
 
 }
 
