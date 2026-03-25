@@ -17,7 +17,7 @@ body{
   z-index: 1;
   width: 100%;
   height: 700px;
-  position: absolute;
+  position: relative;
   justify-self: center;
   margin: 0;
   top: 0; left: 0;
@@ -37,7 +37,7 @@ h1 {
   font: bold 40px/1.5 Arial, sans-serif;
   color: yellow;
   background-color:blue;
-  position:absolute;
+  position:relative;
   justify-self: center;
   z-index: 5;
   width: fit-content;
@@ -61,7 +61,7 @@ h2 {
     color: transparent;
     /* -webkit-text-fill-color: transparent; */ /* Not strictly necessary with modern browsers using the 'color' property */
     
-  position: absolute;
+  position: relative;
   justify-self: center;
   top: 65%;
   z-index: 5;
@@ -76,7 +76,7 @@ h3 {
   font: bold 20px/1.5 Arial, sans-serif;
   color: chartreuse;
   background-color:red;
-  position: absolute;
+  position: relative;
   align-self: center;
   justify-self: center;
   z-index: 5;
@@ -99,7 +99,7 @@ h3 {
 button {
   display: flex;
   z-index: 10;
-  position: absolute;
+  position: relative;
   font: italic 20px/1.5 Arial, sans-serif;
    background-image: linear-gradient(chartreuse, gold);
    border-radius: 5px;
@@ -127,7 +127,7 @@ p {
   font:  16px/1.5 times, serif;
   color: blue;
   background-color: yellow;
-  position: absolute;
+  position: relative;
   align-self: center;
   justify-self: center;
   z-index: 4;
@@ -141,7 +141,7 @@ p {
 
 #speech{
     z-index: 9;
-    position: absolute;
+    position: relative;
     top: 0;
     left: 0;
     height: 700px;
