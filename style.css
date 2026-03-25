@@ -152,4 +152,5 @@ p {
   height: 900px;
   align-items: center;
   justify-content: center;
+  display: flex;
 }
