@@ -41,7 +41,7 @@ h1 {
   justify-self: center;
   z-index: 5;
   width: fit-content;
-  top: 160px;
+  top: 20%;
 
 }
 h2 {
@@ -62,7 +62,7 @@ h2 {
     
   position: absolute;
   justify-self: center;
-  top: 550px;
+  top: 65%;
   z-index: 5;
   text-align: center;
     -webkit-text-stroke-width: 3px;
@@ -81,16 +81,16 @@ h3 {
   z-index: 5;
   animation: bounce  2s linear infinite;;
   width: fit-content;
-  top: 700px;
+  top: 85%;
 
 }
 @keyframes bounce {
   0%, 100% {
-    top: 700px;
+    top: 80%;
     animation-timing-function: ease-in; /* fast drop */
   }
   50% {
-    top: 750px; /* drops down 100px */
+    top: 85%; /* drops down 100px */
     animation-timing-function: ease-out; /* slow rise */
   }
 }
@@ -105,7 +105,7 @@ button {
    color: black;
    justify-self: center;
    text-align: center;
-   top: 40px;
+   top: 10%;
    border-width: 2px;
    border-color: red;
    filter: drop-shadow(0 10px 10px white);
@@ -129,7 +129,7 @@ p {
   align-self: center;
   justify-self: center;
   z-index: 4;
-  top: 750px;
+  top: 85%;
 
   width: fit-content;
 
@@ -143,4 +143,13 @@ p {
     left: 0;
     background-color: transparent;
 
+}
+
+.container {
+  margin: 0;
+  top: 0; left: 0;
+  width: 100%;
+  height: vh;
+  align-items: center;
+  justify-content: center;
 }
